@@ -7,7 +7,7 @@ r:
 	git add --all . &&\
 	git commit -m "$$(date)" &&\
 	git push origin master --force
-	make local
+	make l
     
 l:
 	jekyll build

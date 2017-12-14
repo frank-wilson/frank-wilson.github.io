@@ -1,4 +1,4 @@
-remote:
+r:
 	jekyll build
 	git add --all . &&\
 	git commit -m "$$(date)" &&\
@@ -9,6 +9,6 @@ remote:
 	git push origin master --force
 	make local
     
-local:
+l:
 	jekyll build
 	jekyll serve --incremental --port 4000

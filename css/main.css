@@ -931,7 +931,7 @@ body {
 
 .logo a {
   /*  -webkit-transition:.4s;
-    transition:.4s;
+    transition:.4;s
   */ }
 
 .logo a:hover {
